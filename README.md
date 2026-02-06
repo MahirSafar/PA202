@@ -1,148 +1,126 @@
 # PA202
 
-1. "Salam Dünya" və Ad çapı Tapşırıq: Ekrana "Salam" və istifadəçinin daxil etdiyi adı yazdırın.
-2. İki ədədin cəmi Tapşırıq: İstifadəçidən iki ədəd alıb cəmini tapın.
-3. Ədədin kvadratı Tapşırıq: Daxil edilən ədədin kvadratını hesablayın.
-4. Düzbucaqlının sahəsi və perimetri. Tapşırıq: Eni və uzunluğu verilən düzbucaqlının sahəsini və perimetrini tapın.
-5. Qalıqlı bölmə Tapşırıq: İki ədədin bölünməsindən alınan qalığı tapın.
-6. Orta yaş hesablama Tapşırıq: tələbəlerin yaşını alıb ortalamasını tapın.
-7. Selsi dəyərini Fahrenheit-ə çevirin ($F = C * 1.8 + 32$).
-8. Ədədin son rəqəmi Tapşırıq: Daxil edilən ədədin son rəqəmini ekrana çıxarın.
-9. Artırma əməliyyatı Tapşırıq: Bir ədədi daxil edin və onu 1 vahid artırıb ekrana yazın (Post-increment).
-10. Tək yoxsa Cüt? Tapşırıq: Ədədin tək və ya cüt olmasını yoxlayın.
-11. Mənfi, Müsbət, Sıfır Tapşırıq: Ədədin işarəsini təyin edin.
-12. Böyük olanı tap Tapşırıq: İki ədəd arasında ən böyüyünü tapın.
-13. 3 ədəd arasında maksimum Tapşırıq: Üç ədəd daxil edilir, ən böyüyünü tapın.
-14. İmtahan nəticəsi Tapşırıq: Bal 50-dən yuxarıdırsa "Keçdi", aşağıdırsa "Kəsildi".
-15. Həftənin günləri (Switch) Tapşırıq: 1-7 arası rəqəm daxil edilir, günün adını yazın.
-16. Sadə Kalkulyator Tapşırıq: İki ədəd və bir simvol (+, -, *, /) daxil edilir, nəticəni hesablayın.
-17. 3-ə və 5-ə bölünmə Tapşırıq: Ədəd həm 3-ə, həm də 5-ə bölünürsə "Uğurlu", əks halda "Uğursuz".
-18. Üçbucaq qurmaq olarmı? Tapşırıq: 3 bucaq daxil edilir. Cəmi 180 olarsa "Bəli".
-19. Ədəd mənfidirsə, onu müsbətə çevirin.
-20. 1-dən 100-ə qədər say Tapşırıq: 1-dən 100-ə qədər ədədləri ekrana yazdırın.
-21. 10-dan 1-ə qədər geriyə sayın.
-22. Cüt ədədlərin siyahısı Tapşırıq: 1-50 arası cüt ədədləri yazdırın.
-23. Daxil edilən ədədə qədər olan bütün ədədlərin cəmini tapın.
-24. Faktorial. 5! hesablayın ($1*2*3*4*5$).
-25. 5 ədədinin vurma cədvəlini yazdırın.
-26. Daxil edilən ədədin neçə rəqəmli olduğunu tapın (While ilə).
-27. Hazır funksiya istifadə etmədən ededin quvvetin hesablayın.
-28. A-dan Z-ə qədər hərfləri yazdırın.
-29. 1-100 arası tək ədədlərin cəmini tapın.
-30. 1234 daxil edilir, 4321 çap edilir.
-31. Ədəd tərsinə oxunuşda da eynidirsə (məs: 121),
-32. 456 ədədinin rəqəmləri cəmi (4+5+6).
-33. Ədədin sadə olub olmadığını yoxlayın.
-34. İlk 10 Fibonacci ədədini yazın (0 1 1 2 3 5...).
-35. Nested loop ilə ulduz çəkmək
-36. 3-ə bölünən "Fizz", 5-ə "Buzz", hər ikisinə "FizzBuzz".
-37. İki ədədin Ən Böyük Ortaq Bölənini tapın.
-38. Kompüter bir rəqəm tutur (məs: 50), istifadəçi tapana qədər dövr davam edir.
-39. Bankomat (Sadə ATM) Tapşırıq: Balansdan pul çıxarmaq.
-40. 1-dən 100-ə qədər 7-yə bölünən ədədlərin cəmi Tapşırıq: Sadə riyazi dövr.
-41. bubble sort yazin
+Tapşırıq 1: Dəyişənlər, Operatorlar və If-Else (Giriş balı hesablama)
+Şərt: İstifadəçidən 3 fərqli fənn üzrə imtahan balını (0-100 arası) qəbul edən proqram yazın. Bu balların ortalamasını hesablayın. Əgər ortalama 65-dən böyükdürsə ekrana "Keçdi", əks halda "Kəsildi" yazılsın.
 
+Tapşırıq 2: Switch Case və Sadə Alqoritm (Hesablayıcı)
+Şərt: İstifadəçidən iki ədəd və bir riyazi operator (+, -, *, /) daxil etməsini istəyin. switch-case istifadə edərək əməliyyatı yerinə yetirin və nəticəni ekrana yazdırın. Bölmə zamanı 0-a bölmə xətasını nəzərə alın.
 
+Tapşırıq 3: Dövr Operatorları və Alqoritm (Faktorial)
+Şərt: İstifadəçidən bir tam ədəd daxil etməsini istəyin. for və ya while dövründən istifadə edərək həmin ədədin faktorialını hesablayan proqram yazın.
 
+Tapşırıq 4: Massivlər (Array) və Foreach (Cəm və Maksimum)
+Şərt: 5 elementli bir tam ədəd massivi yaradın və istifadəçidən bu massivin elementlərini daxil etməsini istəyin. Daha sonra foreach dövrü istifadə edərək massivdəki ədədlərin cəmini və ən böyük ədədi tapın.
 
-«Привет, мир» и имя
-Задание: Выведите на экран «Привет» и имя, введённое пользователем.
+Tapşırıq 5: Metodlar və Return Type (Sahə hesablama)
+Şərt: CalculateArea adlı bir metod yaradın. Bu metod düzbucaqlının enini və uzunluğunu parametr kimi qəbul edib sahəsini geri qaytarsın (return etsin). Main metodunda istifadəçidən ölçüləri alıb bu metodu çağırın.
 
-Сумма двух чисел
-Задание: Получите от пользователя два числа и найдите их сумму.
+Tapşırıq 6: Method Overloading (Həndəsi fiqurlar)
+Şərt: Eyni adlı Area metodu yaradın.
+Bir parametr qəbul edərsə, dairənin sahəsini (pirr) hesablasın (pi=3 götürün).
+İki parametr qəbul edərsə, düzbucaqlının sahəsini hesablasın. Overloading (İfrat yükləmə) prinsipini tətbiq edin.
 
-Квадрат числа
-Задание: Вычислите квадрат введённого числа.
+Tapşırıq 7: String Metodları (Tərsinə çevirmə)
+Şərt: İstifadəçidən bir söz daxil etməsini istəyin. Həmin sözü simvollar massivinə çevirərək və ya dövr istifadə edərək tərsinə çevirin və ekrana yazdırın (String metodlarından və alqoritmdən istifadə edin).
 
-Площадь и периметр прямоугольника
-Задание: Найдите площадь и периметр прямоугольника по заданным длине и ширине.
+Tapşırıq 8: ref keyword (Dəyər dəyişimi)
+Şərt: Swap adlı metod yaradın. Bu metod iki tam ədədi parametr kimi qəbul etsin və onların yerini dəyişdirsin. ref açar sözündən istifadə edərək əsas (Main) metodda dəyişənlərin dəyərinin həqiqətən dəyişdiyini sübut edin.
 
-Остаток от деления
-Задание: Найдите остаток от деления двух чисел.
+Tapşırıq 9: out keyword və Default Params
+Şərt: Divide adlı metod yaradın.
+Metod iki ədədi bölsün.
+Qisməti return etsin.
+Qalığı isə out parametri vasitəsilə qaytarsın.
+Metodun ikinci parametri (bölən) üçün default dəyər 1 olsun.
 
-Средний возраст
-Задание: Получите возраст нескольких студентов и вычислите среднее значение.
+Tapşırıq 10: Stack, Heap və Array Referans Məntiqi
+Şərt: İki fərqli massiv yaradın (arr1 və arr2). arr1 = arr2 əməliyyatını yerinə yetirin. Sonra arr2 massivinin ilk elementini dəyişin. arr1-in ilk elementini ekrana çıxarın. Niyə dəyişdiyini (Reference Type məntiqi - Heap yaddaş) izah edən kod nümunəsi yazın.
 
-Перевод градусов Цельсия в Фаренгейты
-Формула: F = C * 1.8 + 32
+Tapşırıq 11: Alqoritm və Massivlər (Sıfırları sona daşımaq)
+Şərt: Tərkibində qarışıq ədədlər və sıfırlar olan bir massiv verilib (məs: [1, 0, 5, 0, 3, 0, 2]). Yeni bir massiv yaratmadan, mövcud massiv üzərində elə dəyişiklik edin ki, bütün sıfırlar massivin sonuna yığılsın, digər ədədlərin sırası isə pozulmasın. (Mövzu: Array, Loops, Two-Pointer Algorithm)
 
-Последняя цифра числа
-Задание: Выведите последнюю цифру введённого числа.
+Tapşırıq 12: String Metodları və Məntiq (Palindrom yoxlanışı)
+Şərt: İstifadəçidən bir söz daxil etməsini istəyin. C#-ın hazır Reverse metodundan istifadə etmədən, bu sözün Palindrom olub-olmadığını (yəni tərsi ilə düzünün eyni olub-olmadığını) yoxlayan alqoritm yazın. (Məsələn: "ana", "radar" palindromdur). (Mövzu: Strings, Loops, Conditional Logic)
 
-Операция инкремента
-Задание: Введите число, увеличьте его на 1 и выведите результат (post-increment).
+Tapşırıq 13: out Parametri ilə Real Ssenari (Login Sistemi)
+Şərt: TryLogin adlı metod yaradın. Metod 3 parametr qəbul edir: username (string), password (string) və out message (string).
+Əgər ad "admin" və şifrə "12345" olarsa, metod true qaytarsın və message "Giriş uğurludur" olsun.
+Əks halda false qaytarsın və message "Yanlış məlumat" olsun. Main metodunda bunu yoxlayın. (Mövzu: Methods, out keyword, Conditional Logic)
 
-Чётное или нечётное?
-Задание: Проверьте, чётное ли число или нечётное.
+Tapşırıq 14: Rekursiya (Fibonacci)
+Şərt: Dövr (Loop) istifadə etmədən, Rekursiv metod (özünü çağıran metod) vasitəsilə Fibonaççi ardıcıllığının n-ci həddini tapan proqram yazın. İstifadəçi n-i daxil etsin. (Mövzu: Recursive Methods, Stack Memory)Tapşırıq 6: Alqoritm və Sorting (Bubble Sort)
+Şərt: Hazır Array.Sort metodunu istifadə etmədən, verilmiş qarışıq ədədlər massivini "Bubble Sort" (Qabarcıq sıralama) alqoritmi ilə kiçikdən böyüyə sıralayın. (Mövzu: Algorithms, Nested Loops, Swapping, Big O)
 
-Отрицательное, положительное или ноль
-Задание: Определите знак числа.
+Tapşırıq 15: String Analizi (Saitlərin Sayılması)
+Şərt: İstifadəçidən uzun bir cümlə qəbul edin. Bu cümlədə neçə ədəd sait hərf (a, ı, o, u, e, ə, i, ö, ü) olduğunu tapan proqram yazın. (Mövzu: Strings, Loops, Arrays/Conditions)
 
-Найти большее из двух чисел
+Tapşırıq 16: Method Overloading və Optional Parameters (Maaş Hesablanması)
+Şərt: CalculateSalary metodu yaradın.
+Metod sadəcə iş saatını (int) qəbul edərsə, saatı 10 AZN-dən hesablasın.
+İş saatı (int) və saatlıq dərəcəni (double) qəbul edərsə, vurub hesablasın.
+Üçüncü bir overload və ya default parametr əlavə edin ki, "bonus" (int) qəbul edə bilsin (default 0). (Mövzu: Method Overloading, Default Parameters)
 
-Максимум из трёх чисел
+Tapşırıq 17: Heap/Stack - Dəyər və Referans Fərqi (Deep Copy)
+Şərt: Bir massiv yaradın (original). copy adlı ikinci massiv yaradın. original massivini elə kopyalayın ki, copy üzərində edilən dəyişiklik original massivə təsir etməsin (Deep Copy). Bunun arr1 = arr2 (Shallow Copy) ilə fərqini izah edən kod yazın. (Mövzu: Stack vs Heap, Reference Types)
 
-Результат экзамена
-Задание: Если балл выше 50 — «Сдал», иначе — «Провалил».
+Tapşırıq 18: İç-içə Dövrlər (Ulduzlardan Paxlava/Romb)
+Şərt: İstifadəçidən bir rəqəm (n) alın (məsələn 5). for dövrlərindən istifadə edərək ulduzlardan (*) romb (diamond) fiquru çəkin. Həm artan, həm azalan hissə olmalıdır. (Mövzu: Nested Loops, Algorithm Logic)
 
-Дни недели (Switch)
-Задание: Введите число от 1 до 7 и выведите соответствующий день недели.
+Tapşırıq 19: String Sıxışdırma (String Compression)
+Şərt: İstifadəçidən hərfləri təkrarlanan bir mətn daxil etməsini istəyin (məs: "aaabbbccc"). Bu mətni sıxışdıraraq hər hərfin sayını yanına yazan alqoritm qurun. Giriş: aaabbbaac Çıxış: a3b3a2c1 (Mövzu: String Manipulation, Loops, Counter Logic)
 
-Простой калькулятор
-Задание: Введите два числа и знак операции (+, -, *, /), затем вычислите результат.
+Tapşırıq 20: Binary Search (İkili Axtarış)
+Şərt: 1-dən 100-ə qədər sıralanmış bir massiv yaradın (və ya dövrlə doldurun). İstifadəçidən bir ədəd istəyin. Bu ədədin massivdə olub-olmadığını Binary Search alqoritmi ilə tapın (Massivi ortadan bölərək axtarış). (Mövzu: Algorithms, Big O - O(log n), Loops)
 
-Делится на 3 и 5
-Задание: Если число делится и на 3, и на 5 — вывести «Удача», иначе «Неудача».
+Tapşırıq 21: Array-də Təkrarlananları Tapmaq
+Şərt: Tərkibində təkrarlanan ədədlər olan bir massiv verilib: { 4, 5, 6, 4, 7, 5, 8 }. Yalnız təkrarlanan ədədləri ekrana çıxaran proqram yazın. (Mövzu: Nested Loops, Arrays, Logic)
 
-Можно ли построить треугольник?
-Задание: Введите три угла. Если их сумма равна 180 — «Да».
+Tapşırıq 22: Manual Array Resize (ref istifadəsi)
+Şərt: C#-da massivlərin ölçüsü sabitdir. Siz elə bir ResizeArray metodu yazın ki, mövcud massivin ölçüsünü 1 vahid artırsın və istifadəçinin göndərdiyi yeni dəyəri sona əlavə etsin. ref istifadə edərək orijinal massivi dəyişin. (Mövzu: Heap Memory, References, Array Manupulation)
 
-Если число отрицательное — сделать положительным.
+Tapşırıq 23: Rekursiya ilə Rəqəmlər Cəmi
+Şərt: İstifadəçidən bir ədəd daxil etməsini istəyin (məs: 4521). Bu ədədin rəqəmləri cəmini (4+5+2+1=12) tapan rekursiv metod yazın. (Dövr istifadə etmək olmaz, stringə çevirmək olmaz). (Mövzu: Recursion, Modulo Operator)
 
-Счёт от 1 до 100
+Tapşırıq 24: Anagram Yoxlanışı
+Şərt: İki sözün Anagram olub-olmadığını yoxlayan metod yazın. Anagram - eyni hərflərdən ibarət fərqli düzülüşlü sözlərdir (məs: "kitab" və "katib", "listen" və "silent"). (Mövzu: String Methods, Sorting Algorithms or Counting)
 
-Счёт назад от 10 до 1
+Tapşırıq 25: Sadə Ədədlər (Prime Numbers) Metodu
+Şərt: IsPrime adlı bool qaytaran metod yazın. Main metodunda 1-dən 100-ə qədər olan bütün sadə ədədləri bu metod vasitəsilə tapıb ekrana yazdırın. (Mövzu: Methods, Algorithm Logic, Nested Loops)
 
-Список чётных чисел от 1 до 50
+Tapşırıq 26: Email Validasiyası (String Parsing)
+Şərt: İstifadəçidən email ünvanı istəyin. Bu emailin valid olub olmadığını yoxlayan sadə qaydalar yazın:
+İçində mütləq '@' olmalıdır.
+'@' simvolundan sonra mütləq '.' olmalıdır.
+'@' simvolu ən başda və ya ən sonda ola bilməz.
+'.' simvolu ən sonda ola bilməz. (Mövzu: String Methods - IndexOf, Length)
 
-Сумма всех чисел до введённого значения
+Tapşırıq 27: Ən uzun sözü tapmaq
+Şərt: İstifadəçidən bir cümlə daxil etməsini istəyin (məs: "Bu gün hava çox gözəldir"). Cümlədəki ən uzun sözü tapan və ekrana yazdıran proqram qurun. String.Split() metodundan istifadə edə bilərsiniz. (Mövzu: String methods, Array Iteration, Conditional Logic)
 
-Факториал (например, 5! = 1×2×3×4×5)
+Tapşırıq 28: "Rəqəmi Təxmin Et" Oyunu (Random & Loops)
+Məqsəd: while dövrü və if-else məntiqi.
+Şərt:
+Proqram 1 ilə 100 arasında təsadüfi (Random) bir rəqəm tutsun.
+İstifadəçidən bu rəqəmi tapmasını istəsin.
+Əgər istifadəçi kiçik rəqəm yazsa, ekrana "Daha böyük ədəd daxil edin" çıxsın.
+Əgər böyük rəqəm yazsa, "Daha kiçik ədəd daxil edin" çıxsın.
+Rəqəm tapıldıqda "Təbriklər! 5 cəhdə tapdınız" kimi mesaj versin.
 
-Таблица умножения на 5
+Tapşırıq 29: Tək və Cüt Ədədlərin Cəmi (Array & Modulo)
+Məqsəd: Massivlərlə işləmək və qalıqlı bölmə (%) operatoru.
+Şərt:
+10 elementli bir massiv yaradın və içini özünüz (və ya istifadəçi) doldurun.
+foreach və ya for dövrü ilə massivi gəzin.
+Tək ədədlərin cəmini ayrı, cüt ədədlərin cəmini ayrı hesablayın.
+Sonda hansı cəmin daha böyük olduğunu ekrana yazdırın.
 
-Определить количество цифр в числе (используя while)
-
-Возведение в степень без готовой функции
-
-Вывод букв от A до Z
-
-Сумма нечётных чисел от 1 до 100
-
-Число 1234 → вывести 4321
-
-Палиндром
-Задание: Если число читается одинаково слева направо и справа налево (например, 121).
-
-Сумма цифр числа (например, 456 → 4+5+6)
-
-Проверить, является ли число простым.
-
-Первые 10 чисел Фибоначчи (0, 1, 1, 2, 3, 5...)
-
-Рисование звёзд с помощью вложенных циклов (nested loop)
-
-FizzBuzz
-Задание: Если число делится на 3 — «Fizz», на 5 — «Buzz», на оба — «FizzBuzz».
-
-НОД (наибольший общий делитель) двух чисел.
-
-Игра «Угадай число»
-Компьютер загадывает число (например, 50), пользователь угадывает, пока не найдёт.
-
-Простой банкомат (ATM)
-Задание: Снять сумму с баланса.
-
-Сумма чисел от 1 до 100, кратных 7.
-
-Реализовать пузырьковую сортировку (Bubble Sort).
+Tapşırıq 3: Sadə ATM (Switch Case & While)
+Məqsəd: Sonsuz dövr (while true) və menyu sistemini (switch case).
+Şərt:
+Başlanğıc balansı 500 AZN olan bir dəyişən təyin edin.
+İstifadəçiyə menyu göstərin:
+1: Balansı göstər
+2: Pul çıxar
+3: Çıxış
+İstifadəçi "Pul çıxar" seçərsə, məbləği soruşun. Balansdan azdırsa çıxın, çoxdursa "Kifayət qədər vəsait yoxdur" yazın.
+İstifadəçi "Çıxış" seçənə qədər proqram dayanmasın (dövr etsin).
